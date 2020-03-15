@@ -1,7 +1,3 @@
-[TOC]
-
-
-
 ### Deep Learning for Time-Series Analysis
 
 ##### John Gamboa https://arxiv.org/pdf/1701.01887.pdf
@@ -31,21 +27,21 @@
 
 - 연결은 대부분 두 unit이 얼마나 강한 관련이 있는지에 대한 가중치를 갖는다. 
 
-  
-
-  <img src="C:\Users\chlgy\Documents\papers\image\function.png" alt="function" style="zoom: 67%;" />
+- <img src="./image/function.png" alt="function" style="zoom:67%;" />
 
 - 일반적으로, unit 에 의해 수행되는 연산은 aggregation function과 activation function이라는 두 개의 그룹으로 구분된다.
 
 - input layer과 output layer를 제외한 모든 층을 hidden layer라고 한다.
 
-  <img src="C:\Users\chlgy\Documents\papers\image\ann.png" alt="ann" style="zoom:67%;" />
+  <img src="./image/ann.png" alt="ann" style="zoom: 67%;" />
 
-<img src="C:\Users\chlgy\Documents\papers\image\ann2.png" alt="ann2" style="zoom:67%;" />
+<img src="./image/ann2.png" alt="ann2" style="zoom:67%;" />
 
 
 
 학습 알고리즘의 초점은 주로 네트워크가 어떤 가중치로 인해 예상 값을 출력할 것인지를 결정하는 데 있다. 널리 사용되는 학습 알고리즘은 오류 함수의 기울기를 계산하고 오류를 최소화하기 위해 가중치를 반복적으로 설정하는 역전파 알고리즘이다.
+
+
 
 #### CNN
 
